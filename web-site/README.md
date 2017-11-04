@@ -51,6 +51,21 @@ nav {
 @mixin border-radius($radius: 4px) {
 	@include css3-prefix("border-radius", $radius);
 }
+
+@mixin cuadrado ($fondo, $ancho:200px){
+    background-color: $fondo;
+    width: $ancho;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+.cuadrado-1{
+    @include cuadrado(#111, 300px);
+}
+.cuadrado-2{
+    @include cuadrado(#222);    
+}
 ```
 
 ### Extend/Inheritance
