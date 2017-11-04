@@ -1,0 +1,13 @@
+footer{
+    height: 200px;
+    background: #444;
+    h4{
+        color: red;
+        a{
+            color:blue;
+        }
+    }
+    p{
+        background: $colorUno;
+    }
+}

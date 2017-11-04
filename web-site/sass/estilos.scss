@@ -1,0 +1,22 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+h1{
+    color: $colorDos;
+}
+
+section{
+    height: 200px;
+    background: #f9ed69;
+    h1{
+        color: $colorDos;
+    }
+    h2{
+        background: #b83b5e;
+    }
+    p{
+        background: $colorUno;
+    }
+}
+
